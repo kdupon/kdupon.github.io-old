@@ -1,6 +1,8 @@
 **/jspm_packages/
 **/node_modules/
 
+**/.publish/
+
 **/.backup/
 **/.bk/
 **/.sandbox/
