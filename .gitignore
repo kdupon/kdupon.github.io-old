@@ -1,0 +1,13 @@
+**/jspm_packages/
+**/node_modules/
+
+**/.backup/
+**/.bk/
+**/.sandbox/
+**/.workspace/
+
+dist/
+tmp/
+
+.DS_Store
+npm-debug.log
