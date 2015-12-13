@@ -13,3 +13,6 @@ tmp/
 
 .DS_Store
 npm-debug.log
+
+*.nupkg
+Package.nuspec

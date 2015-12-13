@@ -1,5 +1,6 @@
 'use strict'
 
 export { build }  from './build'
-export { clean }  from './clean'
 export { deploy } from './deploy'
+export { lintStyles, styles } from './styles'
+export { scripts } from './scripts'
