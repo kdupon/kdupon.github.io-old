@@ -26,6 +26,15 @@ github_username: kdupon
 package:
   version: 0.1.0
 
+# Custom collections
+collections:
+  recipes:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title:output_ext
+
+helpers:
+  empty_array: []
+
 # Build settings
 markdown: kramdown
 

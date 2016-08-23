@@ -1,23 +1,44 @@
 ---
 layout: default
 ---
+<!-- assign empty array super store -->
+{% assign super_store = site.helpers.empty_array %}
 
-<section class="page-home container-fluid p-t-1">
+<!-- push posts into the super store -->
+{% for post in site.posts %}
+  {% assign super_store = super_store | push: post %}
+{% endfor %}
+
+<!-- push recipes into the super store -->
+{% for recipe in site.recipes %}
+  {% assign super_store = super_store | push: recipe %}
+{% endfor %}
+
+<!-- reorder the super store by date -->
+{% assign super_store = super_store | sort: "date" %}
+
+<section class="page-home container-fluid m-b-3 p-t-1">
   <div class="row m-x-0">
-    {% for post in site.posts %}
+    {% for store in super_store  limit: 10 %}
       <div class="col-md-4 p-b-1">
         <div class="card card-block m-b-0">
           <h4 class="card-title m-b-0">
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            <a href="{{ store.url | prepend: site.baseurl }}">{{ store.title | escape }}</a>
           </h4>
           <p class="card-text">
-              {{ post.date | date: "%b %-d, %Y" }}
+              {{ store.date | date: "%b %-d, %Y" }}
           </p>
-          <p class="card-text">{{ post.excerpt | strip_html | truncatewords:22 }}</p>
+          <p class="card-text">{{ store.excerpt | strip_html | truncatewords:22 }}</p>
           <a class="card-link text-uppercase"
-             href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+             href="{{ store.url | prepend: site.baseurl }}">Read more</a>
         </div>
       </div>
     {% endfor %}
+  </div>
+</section>
+<section class="container m-y-3 p-y-3">
+  <div class="row m-t-3 p-b-3">
+    <h3 class="m-b-1 editable">I am an experienced UX Designer turned Product Manager, who specializes in strategizing, conceptualization, and forming thoughtful, useful, and beautiful end-to-end experiences.</h3>
+    <p class="editable">I have a strong love for strategy and truly understanding the user's needs, wants, and motivations which allow me to create seamless enterprise web and mobile and software application designs. I understand web development and user-centric design proficiently, I love finding solutions that will both benefit the company and the audience. I believe it's my responsibility to find solutions which help the client thrive and grow.</p>
   </div>
 </section>
