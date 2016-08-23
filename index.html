@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="page-home container-fluid p-t-1">
+  <div class="row m-x-0">
+    {% for post in site.posts %}
+      <div class="col-md-4 p-b-1">
+        <div class="card card-block m-b-0">
+          <h4 class="card-title m-b-0">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h4>
+          <p class="card-text">
+              {{ post.date | date: "%b %-d, %Y" }}
+          </p>
+          <p class="card-text">{{ post.excerpt | strip_html | truncatewords:22 }}</p>
+          <a class="card-link text-uppercase"
+             href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

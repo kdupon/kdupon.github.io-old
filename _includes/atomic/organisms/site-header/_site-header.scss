@@ -1,0 +1,23 @@
+
+// atomic/organisms/site-header
+//
+
+.site-header {
+
+  nav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  a {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #666;
+    font-family: $font-family-playfair;
+    text-transform: uppercase;
+
+    @include hover {
+      color: darken(#666, 10);
+    }
+  }
+}

@@ -9,8 +9,7 @@
 **/.sandbox/
 **/.workspace/
 
-dist/
-tmp/
+_site/
 
 .DS_Store
 npm-debug.log

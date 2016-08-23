@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  {% include sections/head.html %}
+  <body class="fout-buster">
+    {% include sections/top.html %}
+    {% include atomic/organisms/site-header/site-header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+    {% include sections/bottom.html %}
+  </body>
+</html>

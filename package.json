@@ -1,27 +1,22 @@
 {
   "name": "kdupon.github.io",
-  "version": "0.0.0",
-  "description": "todo desc",
-  "main": "gulpfile.js",
-  "directories": {
-    "doc": "docs",
-    "packages": "jspm_packages"
-  },
+  "version": "0.1.0",
+  "description": "Kate Dupon",
+  "main": "index.js",
   "scripts": {
-    "build:tools": "tsc --project tools",
-    "develop": "npm run build:gulp && npm start",
-    "gulp": "node node_modules/gulp/bin/gulp.js",
-    "postinstall": "jspm install && typings install",
-    "start": "npm run gulp -- serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -d --progress",
+    "jekyll-serve": "bundle exec jekyll serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node watch.js --watch",
+    "webpack": "webpack -d --progress"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kdupon/kdupon.github.io.git"
   },
   "keywords": [
-    "todo",
-    "kw"
+    "Kate",
+    "Dupon"
   ],
   "author": "Joshua L Geschwendt",
   "contributors": [
@@ -33,41 +28,22 @@
   },
   "homepage": "https://github.com/kdupon/kdupon.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "6.1.2",
-    "browser-sync": "2.10.0",
-    "conventional-changelog": "0.5.1",
-    "david": "7.0.0",
-    "del": "2.2.0",
-    "gulp": "gulpjs/gulp#6472219",
-    "gulp-bump": "1.0.0",
-    "gulp-file": "0.2.0",
-    "gulp-flatten": "0.2.0",
-    "gulp-footer": "1.0.5",
-    "gulp-gh-pages": "0.5.4",
-    "gulp-header": "1.7.1",
-    "gulp-load-plugins": "1.1.0",
-    "gulp-postcss": "6.0.1",
-    "gulp-rename": "1.2.2",
-    "gulp-sass": "2.1.1",
-    "gulp-scss-lint": "0.3.8",
-    "gulp-sourcemaps": "1.6.0",
-    "gulp-uglify": "1.5.1",
-    "gulp-util": "3.0.7",
-    "jlg-toolkit": "geschwendt/jlg-toolkit",
-    "jspm": "0.16.15",
-    "lodash": "3.10.1",
-    "mq4-hover-shim": "0.3.0",
-    "normalize.css": "3.0.3",
-    "typescript": "1.8.7",
-    "typings": "0.7.7"
-  },
-  "jspm": {
-    "directories": {
-      "doc": "docs"
-    },
-    "configFile": "src/config.js",
-    "devDependencies": {
-      "typescript": "npm:typescript@^1.6.2"
-    }
+    "bootstrap": "4.0.0-alpha.3",
+    "browser-sync": "2.14.0",
+    "clean-webpack-plugin": "0.1.10",
+    "css-loader": "0.23.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "fsevents": "1.0.14",
+    "minimist": "1.2.0",
+    "monkey-hot-loader": "0.0.3",
+    "node-sass": "^3.8.0",
+    "qs": "^6.2.1",
+    "sass-loader": "4.0.0",
+    "style-loader": "0.13.1",
+    "webpack": "1.13.1",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-hot-middleware": "2.12.2",
+    "webpack-merge": "0.14.1",
+    "worker-loader": "0.7.1"
   }
 }
