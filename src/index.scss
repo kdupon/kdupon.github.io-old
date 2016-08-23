@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'vendor/bootstrap';
+
+@import '../_includes/atomic/atomic';
+
+.page-home {
+  background-color: #ddd;
+}
+
+.fout-buster {
+    display: block !important;
+}

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="page-blog container">
+
+  <h1 class="page-heading p-t-2 m-b-2">Welcome to our blog.</h1>
+
+  <div class="row">
+    {% for post in site.posts %}
+      <div class="col-md-6">
+        <div class="card card-block">
+          <h4 class="card-title m-b-0">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h4>
+          <p class="card-text">
+              {{ post.date | date: "%b %-d, %Y" }}
+          </p>
+          <p class="card-text">{{ post.excerpt | strip_html | truncatewords:22 }}</p>
+          <a class="card-link text-uppercase" 
+             href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+</div>

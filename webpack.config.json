@@ -1,0 +1,15 @@
+{
+    "entry": {
+        "main": [
+            "./src/index.js"
+        ],
+        "styles": [
+            "./src/index.scss"
+        ]
+    },
+    "output": {
+        "path": "assets",
+        "publicPath": "/assets/",
+        "filename": "[name].js"
+    }
+}
