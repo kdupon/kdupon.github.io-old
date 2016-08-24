@@ -2,7 +2,7 @@
 layout: recipe
 title: 'Grilled Sausage & Veggie Packets'
 date: 2016-08-10T21:51:00.000Z
-image_path:
+image_path: /14044281532_bfcb97a634_k.jpg
 ---
 
 
