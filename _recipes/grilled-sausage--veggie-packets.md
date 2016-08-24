@@ -6,60 +6,29 @@ image_path:
 ---
 
 
-## INGREDIENTS
+## Ingredients
 
-1 red bell pepper
+* 1 red bell pepper, thinly sliced
+* 2 ears corn on the cob, cut into 1 inch sections
+* 1/2 large yellow (1 medium) onion, chopped
+* 4-5 small red potatoes, chopped
+* 1 medium sized zucchini, coined
+* 1 package chicken sausage, coined
+* 5 tablespoons olive oil
+* 1 tablespoon dried oregano
+* 1 tablespoon dried parsley flakes
+* 1/2 teaspoon garlic powder
+* 1 teaspoon paprika
+* Seasoned salt and pepper
+* Freshly chopped parsley
 
-2 ears corn on the cob
 
-1/2 large yellow (1 medium) onion
+## Instructions
 
-4-5 small red potatoes
-
-1 medium sized zucchini
-
-1 package (13 ounces) Butterball Hardwood Smoked Turkey Sausage
-
-5 tablespoons olive oil
-
-1 tablespoon dried oregano
-
-1 tablespoon dried parsley flakes
-
-1/2 teaspoon garlic powder
-
-1 teaspoon paprika
-
-Seasoned salt and pepper
-
-Optional: freshly chopped parsley
-
-&nbsp;
-
-Prepare the veggies and meat.
-
-Remove top and seeds from the pepper. Thinly slice.
-
-Remove husk from corn and cut into 1 inch disks. Coarsely chop the onion.
-
-Cut the potatoes into small bite-sized pieces -- about 8-10 pieces per potato depending on size.
-
-Coin the zucchini.
-
-Coin the turkey sausage.
-
-Assemble
-
-Preheat the grill to medium heat.
-
-In a small bowl, stir together the olive oil, oregano, parsley, garlic powder, paprika, about 1/2 teaspoon (or to taste) seasoned salt and pepper. Stir.
-
-Add seasonings to the veggies + meat and toss well.
-
-Place 2 pieces of tin foil on top of each other.
-
-Put a generous amount of the mixture in the center and then fold up the first piece of foil and then the next piece of foil to form a secure encasing.
-
-Grill covered over medium heat for 16-24 minutes (depending on heat of grill) until veggies are crisp tender.
-
-Remove and top with freshly chopped parsley if desired.
+1. Preheat the grill to medium heat.
+2. In a large bowl, mix together olive oil, oregano, parsley flakes, garlic powder, paprika, salt, and pepper.&nbsp;
+3. Add meat and vegetables to the bowl and toss.&nbsp;
+4. Place 2 pieces of tin foil on top of each other.&nbsp;
+5. Put the mixture on top of the foil and create a sealed packet.
+6. Grill covered for 16-24 minutes or until vegetables are crisp tender.&nbsp;
+7. Top with fresh parsley.
