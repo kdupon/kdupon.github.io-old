@@ -2,7 +2,7 @@
 layout: recipe
 title: 'Grilled Sausage & Veggie Packets'
 date: 2016-08-10T21:51:00.000Z
-image_path:
+image_path: /sausage-veggies.jpg
 ---
 
 
@@ -28,9 +28,9 @@ image_path:
 1. Preheat the grill to medium heat.
 2. In a large bowl, mix together olive oil, oregano, parsley flakes, garlic powder, paprika, salt, and pepper.
 3. Add meat and vegetables to the bowl and toss.
-4. Place meat and vegetables into a tin foil tray and cover with tin foil to make a sealed container.&nbsp;
+4. Place meat and vegetables into a tin foil tray and cover with tin foil to make a sealed container.
 5. Grill covered for 16-24 minutes or until vegetables are crisp tender.
 6. Top with fresh parsley.
 
 
-Description of the meal, goes here.&nbsp;
+Description of the meal, goes here.
