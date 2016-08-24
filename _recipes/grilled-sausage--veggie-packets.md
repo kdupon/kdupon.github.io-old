@@ -28,10 +28,9 @@ image_path:
 1. Preheat the grill to medium heat.
 2. In a large bowl, mix together olive oil, oregano, parsley flakes, garlic powder, paprika, salt, and pepper.
 3. Add meat and vegetables to the bowl and toss.
-4. Place 2 pieces of tin foil on top of each other.
-5. Put the mixture on top of the foil and create a sealed packet.
-6. Grill covered for 16-24 minutes or until vegetables are crisp tender.
-7. Top with fresh parsley.
+4. Place meat and vegetables into a tin foil tray and cover with tin foil to make a sealed container.&nbsp;
+5. Grill covered for 16-24 minutes or until vegetables are crisp tender.
+6. Top with fresh parsley.
 
 
 Description of the meal, goes here.&nbsp;
