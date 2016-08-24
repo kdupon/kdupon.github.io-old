@@ -2,6 +2,6 @@
 layout: recipe
 ingredients:
   - ingredient #1
-instructions: []
+instructions:
   - instruction #1
 ---
