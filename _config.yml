@@ -30,7 +30,21 @@ package:
 collections:
   recipes:
     output: true
-    permalink: /:categories/:year/:month/:day/:title:output_ext
+    permalink: /:categories/:year/:month/:day/:title
+
+defaults:
+  - scope:
+      path: ''
+      type: recipes
+    values:
+      layout: recipes
+      title: ''
+      date: ''
+      image_path: ''
+      ingredients:
+        - ''
+      instructions:
+        - ''
 
 helpers:
   empty_array: []
