@@ -32,3 +32,6 @@ image_path:
 5. Put the mixture on top of the foil and create a sealed packet.
 6. Grill covered for 16-24 minutes or until vegetables are crisp tender.
 7. Top with fresh parsley.
+
+
+Description of the meal, goes here.&nbsp;
