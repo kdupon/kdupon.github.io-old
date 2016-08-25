@@ -39,7 +39,6 @@ defaults:
     values:
       layout: recipes
       title: ''
-      date: ''
       image_path: ''
       ingredients:
         - ''
