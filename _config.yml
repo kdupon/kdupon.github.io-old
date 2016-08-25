@@ -32,19 +32,6 @@ collections:
     output: true
     permalink: /:categories/:year/:month/:day/:title
 
-defaults:
-  - scope:
-      path: ''
-      type: recipes
-    values:
-      _hide_content: true
-      layout: recipes
-      title: ''
-      image_path: ''
-      ingredients: []
-      instructions: []
-      description: ''
-
 helpers:
   empty_array: []
 

@@ -9,31 +9,6 @@ layout: default
 
   <div class="post-content">
     <img class="page-image" src="{{ page.image_path }}" alt="{{ page.title }}">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Ingredients</h2>
-        <ul>
-          {% for ingredient in page.ingredients %}
-            <li>{{ ingredient }}</li>
-          {% endfor %}
-        </ul>
-
-        <h2>Instructions</h2>
-        <ol>
-          {% for instruction in page.instructions %}
-            <li>{{ instruction }}</li>
-          {% endfor %}
-        </ol>
-      </div>
-      <div class="col-md-6">
-        <img class="image-fluid" src="{{ page.image_path }}" alt="{{ page.title }}">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        {{ page.description }}
-      </div>
-    </div>
+    {{ content }}
   </div>
 </article>
