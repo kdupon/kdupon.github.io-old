@@ -32,15 +32,6 @@ collections:
     output: true
     permalink: /:categories/:year/:month/:day/:title
 
-defaults:
-  - scope:
-      path: ''
-      type: recipes
-    values:
-      layout: recipes
-      title: ''
-      image_path: ''
-
 helpers:
   empty_array: []
 
