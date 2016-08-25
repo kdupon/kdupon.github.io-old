@@ -43,7 +43,7 @@ defaults:
       image_path: ''
       ingredients: []
       instructions: []
-      content: ''
+      description: ''
 
 helpers:
   empty_array: []
