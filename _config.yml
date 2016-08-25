@@ -37,6 +37,7 @@ defaults:
       path: ''
       type: recipes
     values:
+      _hide_content: true
       layout: recipes
       title: ''
       image_path: ''
