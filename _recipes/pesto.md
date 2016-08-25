@@ -2,7 +2,7 @@
 layout: recipe
 title: Pesto
 date: 2016-08-10T21:51:00.000Z
-image_path: /sausage-veggies.jpg
+image_path: /tortellini-pesto.jpg
 ingredients:
   - '1 red bell pepper, thinly sliced'
   - '2 ears corn on the cob, cut into 1 inch sections'
@@ -25,3 +25,5 @@ instructions:
   - Grill covered for 16-24 minutes or until vegetables are crisp tender.
   - Top with fresh parsley.
 ---
+
+
