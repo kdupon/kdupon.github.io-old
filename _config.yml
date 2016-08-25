@@ -41,10 +41,9 @@ defaults:
       layout: recipes
       title: ''
       image_path: ''
-      ingredients:
-        - ''
-      instructions:
-        - ''
+      ingredients: []
+      instructions: []
+      content: ''
 
 helpers:
   empty_array: []
