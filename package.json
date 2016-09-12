@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack -d --progress",
     "jekyll-serve": "bundle exec jekyll serve",
+    "start": "parallelshell \"bundle exec jekyll build --watch\" \"node watch.js --watch\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node watch.js --watch",
     "webpack": "webpack -d --progress"
@@ -37,6 +38,7 @@
     "minimist": "1.2.0",
     "monkey-hot-loader": "0.0.3",
     "node-sass": "^3.8.0",
+    "parallelshell": "^2.0.0",
     "qs": "^6.2.1",
     "sass-loader": "4.0.0",
     "style-loader": "0.13.1",

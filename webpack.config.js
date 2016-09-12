@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 
 const argv = require('minimist')(process.argv.slice(2));
@@ -76,7 +76,7 @@ let webpackConfig = {
         includePaths: [path.resolve(__dirname, './magic-folder')]
     },
     plugins: [
-        new Clean([config.output.path])
+        new Clean([config.output.path, '_site'])
     ],
     resolve: {
       extensions: [ '', '.js', '.json' ],

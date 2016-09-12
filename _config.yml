@@ -40,8 +40,9 @@ markdown: kramdown
 
 exclude:
   - 'node_modules'
-  - 'src/'
-  - 'test/'
+  - '@modules/'
+  - '@scripts/'
+  - '@tools/'
   - 'Gemfile'
   - 'Gemfile.lock'
   - 'package.json'

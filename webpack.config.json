@@ -1,10 +1,10 @@
 {
     "entry": {
         "main": [
-            "./src/index.js"
+            "./@modules/index.js"
         ],
         "styles": [
-            "./src/index.scss"
+            "./@modules/index.scss"
         ]
     },
     "output": {
